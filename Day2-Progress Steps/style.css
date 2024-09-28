@@ -33,11 +33,11 @@ body{
 
 .progress-container::before {
     content: "";
-    background-color: #3498db;
+    background-color: #e0e0e0;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     height: 4px;
     width: 100%;
     z-index: -1;
@@ -49,7 +49,7 @@ body{
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     height: 4px;
     width: 0%;
     z-index: -1;
@@ -69,7 +69,7 @@ body{
     transition: .4s ease;
 }
 
-.circle.active{
+.active{
     border-color: #3498db;
 }
 
