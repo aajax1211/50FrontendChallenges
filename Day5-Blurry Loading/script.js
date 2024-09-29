@@ -4,12 +4,8 @@ const bg = document.querySelector(".bg")
 
 let load = 0;
 
-document.addEventListener("DOMContentLoaded", () =>{
 
-    let int = setInterval(blurring, 30)
-})
-
-
+let int = setInterval(blurring, 30)
 
 function  blurring(){
     load++
